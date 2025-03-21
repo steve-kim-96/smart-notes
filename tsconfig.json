@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "rootDir": "./src", // Tell TypeScript where your source files are
+    "outDir": "./dist", // Output compiled files to the 'dist' folder,
     "module": "es2020", // or "esnext" or "commonjs",
     "target": "ES6",
     "lib": ["DOM", "ES6", "DOM.Iterable", "ScriptHost"],
@@ -8,5 +10,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "include": ["src"], // Ensure only 'src' is compiled
+  "exclude": ["node_modules", "dist"] // Prevent TypeScript from re-compiling built files
 }
