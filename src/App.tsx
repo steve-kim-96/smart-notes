@@ -1,13 +1,13 @@
-import { mockNotes } from "./assets/mockNotes";
 import "./styles/App.scss";
-import { Note } from "./features/Notes/components/Note/Note";
+import { Notes } from "./features/Notes/components/Notes";
+import { Route, Routes } from "react-router-dom";
 
 export const App = () => {
   return (
-    <div className="App">
-      {mockNotes.map((note) => {
-        return <Note {...note} />;
-      })}
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Notes />} />
+      </Routes>
+    </>
   );
 };

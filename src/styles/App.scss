@@ -6,10 +6,3 @@ body {
   background-color: $bg-color;
   content: "bg-color: #{$bg-color}";
 }
-
-.App {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
