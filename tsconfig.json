@@ -2,12 +2,12 @@
   "compilerOptions": {
     "rootDir": "./src", // Tell TypeScript where your source files are
     "outDir": "./dist", // Output compiled files to the 'dist' folder,
-    "module": "es2020", // or "esnext" or "commonjs",
+    "module": "NodeNext", // or "esnext" or "commonjs",
     "target": "ES6",
     "lib": ["DOM", "ES6", "DOM.Iterable", "ScriptHost"],
     "jsx": "react-jsx",
     "strict": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true
   },
