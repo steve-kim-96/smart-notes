@@ -10,6 +10,7 @@
   border-radius: 10px;
   box-shadow: $box-shadow;
   padding: $padding-small;
+  margin-top: $margin-large;
 
   .note-title {
     margin-top: $margin-small;
@@ -18,5 +19,9 @@
 
   .note-description {
     margin-bottom: $margin-large;
+  }
+
+  .note-author {
+    margin-top: auto;
   }
 }

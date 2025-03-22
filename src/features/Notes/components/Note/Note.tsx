@@ -7,7 +7,7 @@ export const Note = ({ id, title, description, author }: Props) => {
     <div key={id} data-test-id={id} className="note-card">
       <span className="note-title">{title}</span>
       <span className="note-description">{description}</span>
-      <span>Author: {author}</span>
+      <span className="note-author">Author: {author}</span>
     </div>
   );
 };

@@ -19,4 +19,25 @@ export const mockNotes = [
       "Third test note. Let's make this description a little bit longer so we have an edge case to test against and see what it looks like. Let's have fun with this project and see what we can do",
     author: "Grace",
   },
+  {
+    id: "4",
+    title: "Test note 4",
+    description:
+      "Third test note. Let's make this description a little bit longer so we have an edge case to test against and see what it looks like. Let's have fun with this project and see what we can do",
+    author: "Grace",
+  },
+  {
+    id: "5",
+    title: "Test note 5",
+    description:
+      "Third test note. Let's make this description a little bit longer so we have an edge case to test against and see what it looks like. Let's have fun with this project and see what we can do",
+    author: "Grace",
+  },
+  {
+    id: "6",
+    title: "Test note 6",
+    description:
+      "Third test note. Let's make this description a little bit longer so we have an edge case to test against and see what it looks like. Let's have fun with this project and see what we can do",
+    author: "Grace",
+  },
 ];
