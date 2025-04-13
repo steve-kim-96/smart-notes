@@ -5,10 +5,12 @@ import { signupFormSchema } from "./__helper__/formSchema";
 export const Signup = () => {
   const {
     register,
+    watch,
     formState: { errors },
   } = useForm({
     resolver: zodResolver(signupFormSchema),
   });
+
   return (
     <div className="signup-container">
       <Form>
